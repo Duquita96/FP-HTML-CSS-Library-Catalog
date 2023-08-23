@@ -53,9 +53,11 @@ header {
 }
 
 #nav-links > a {
-  margin: 0 12px;
+  /* margin: 0 12px; */
+  padding: 0 10px;
   color: antiquewhite;
   text-decoration: none;
+  border-radius: 15px;
 }
 
 body {
@@ -68,9 +70,10 @@ body {
   background-color: rgba(250, 235, 215, 0.5);
   width: 80%;
   height: auto;
-  margin: 150px 10%;
+  margin: 80px 10%;
   padding: 20px;
   border-radius: 10px;
+  flex-direction: column;
 }
 
 #news-section div {
@@ -93,6 +96,65 @@ body {
   border-radius: 10px;
   font-size: 30px;
 }
+#inside-table {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+#card-1 {
+  grid-template-columns: 1/1;
+}
+#card-2 {
+  grid-template-columns: 1/2;
+}
+#card-3 {
+  grid-template-columns: 1/3;
+}
+#card-4 {
+  grid-template-columns: 2/1;
+}
+#card-5 {
+  grid-template-columns: 2/2;
+}
+#card-6 {
+  grid-template-columns: 2/3;
+}
+
+
+#card-1,
+#card-2,
+#card-3,
+#card-4,
+#card-5,
+#card-6 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  position: static;
+  font-size: 16px;
+}
+
+.list-group-item {
+  position: static;
+  background-color: rgba(250, 235, 215, 0.5);
+}
+
+.card {
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 #button-menu {
   border-radius: 15px;
@@ -103,7 +165,6 @@ body {
   border: none;
   display: none;
   text-align: center;
-
 }
 
 .fa-bars {
@@ -115,8 +176,6 @@ body {
 
 #toggle-menu {
   display: none;
-  
-
 }
 
 label[for="toggle-menu"] {
@@ -136,13 +195,27 @@ label[for="toggle-menu"] {
 
 #toggle-menu:checked ~ #burger-links {
   display: block;
+
 }
+
+#main-title {
+  font-size: 100px;
+  margin-top: 160px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(250, 235, 215, 0.5);
+  width: 80%;
+  border-radius: 15px;
+  padding: 20px;
+  align-items: center;
+}
+
 
 #burger-links > li > a {
   color: antiquewhite;
   text-decoration: none;
   padding: 0;
-  
 }
 
 li {
@@ -152,7 +225,11 @@ li {
   padding: 0;
 }
 
-@media (max-width: 1200px) {
+a:hover {
+  background-color: rgba(250, 235, 215, 0.203);
+
+}
+@media (max-width: 1240px) {
   #logo-page {
     font-size: 60px;
   }
@@ -167,8 +244,10 @@ li {
     flex-direction: column;
     width: 20%;
   }
-  #toggle-menu:checked ~ #news-section {
+  #main-title {
     width: 60%;
+    margin-right: 50%;
+    display: flex;
+    align-items: start;
   }
-
 }

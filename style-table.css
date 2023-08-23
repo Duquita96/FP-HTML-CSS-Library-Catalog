@@ -1,0 +1,48 @@
+body {
+  background-image: url(/images/library-background.jpeg);
+  background-size: cover;
+}
+tr {
+  display: flex;
+}
+
+td {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table {
+  display: flex;
+  background-color: rgba(250, 235, 215, 0.5);
+  width: 80%;
+  height: auto;
+  margin: 80px 10%;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.nummber {
+  width: 10%;
+  text-align: center;
+  font-size: 35px;
+}
+
+td,
+.cell {
+  width: 100%;
+  font-size: 35px;
+}
+
+img.thumb-image {
+  width: 100px;
+}
+
+img.thumb-image:hover {
+  transform: scale(2);
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
