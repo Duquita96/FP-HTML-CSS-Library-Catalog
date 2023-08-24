@@ -7,9 +7,6 @@ header {
   overflow: auto;
 }
 #nav-menu {
-  background-color: rgba(65, 5, 5, 0.833);
-  width: 100%;
-  height: 100px;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -22,7 +19,39 @@ header {
 footer {
   background-color: rgba(65, 5, 5, 0.833);
 }
+#logo-page, 
+.fa-bars {
+  color: rgb(144, 136, 125);
+}
 
+#page-name,
+#nav-links > a,
+#burger-links > li > a {
+  color: antiquewhite;
+}
+#news-section,
+#resume-table,
+.list-group-item,
+#main-title {
+  background-color: rgba(250, 235, 215, 0.5);
+
+}
+
+
+
+#nav-menu,
+#marbete-image,
+#inside-table,
+.image-container,
+li,
+footer {
+  width: 100%;
+}
+
+#nav-menu,
+footer {
+  height: 100px;
+}
 
 
 
@@ -34,12 +63,10 @@ footer {
   align-items: center;
   font-size: 80px;
   margin: 15px;
-  color: rgb(144, 136, 125);
 }
 #page-name {
   font-size: 50px;
   margin-left: 20px;
-  color: antiquewhite;
 }
 
 #nav-links {
@@ -71,7 +98,6 @@ footer {
 
 #nav-links > a {
   padding: 0 10px;
-  color: antiquewhite;
   text-decoration: none;
   border-radius: 15px;
 }
@@ -83,7 +109,6 @@ body {
 
 #news-section {
   display: flex;
-  background-color: rgba(250, 235, 215, 0.5);
   width: 80%;
   height: auto;
   margin: 80px 10%;
@@ -109,12 +134,10 @@ body {
 
 #marbete-image {
   border-radius: 15px;
-  width: 100%;
 }
 
 #resume-table {
   display: flex;
-  background-color: rgba(250, 235, 215, 0.5);
   width: 80%;
   height: auto;
   margin: 10%;
@@ -126,10 +149,8 @@ body {
 
 }
 
-
 #inside-table {
   display: grid;
-  width: 100%;
   height: 100%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -171,7 +192,6 @@ body {
 
 .list-group-item {
   position: static;
-  background-color: rgba(250, 235, 215, 0.5);
 }
 
 .card {
@@ -181,7 +201,6 @@ body {
 
 .image-container {
   display: flex;
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -202,7 +221,6 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  color: rgb(144, 136, 125);
 }
 
 #toggle-menu {
@@ -234,7 +252,6 @@ label[for="toggle-menu"] {
   margin-left: 10%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(250, 235, 215, 0.5);
   width: 80%;
   border-radius: 15px;
   padding: 20px;
@@ -242,14 +259,12 @@ label[for="toggle-menu"] {
 }
 
 #burger-links > li > a {
-  color: antiquewhite;
   text-decoration: none;
   padding: 0 10px;
   border-radius: 15px;
 }
 
 li {
-  width: 100%;
   height: 50px;
   margin: 0;
   padding: 0;
@@ -259,10 +274,7 @@ a:hover {
   background-color: rgba(250, 235, 215, 0.203);
 }
 
-
 footer {
-  width: 100%;
-  height: 100px;
   color:antiquewhite;
   display: flex;
   flex-direction: column;
@@ -274,9 +286,6 @@ footer {
   font-size: 30px;
   color:antiquewhite;
 }
-
-
-
 
 @media (max-width: 1240px) {
   #logo-page {
@@ -300,3 +309,6 @@ footer {
     align-items: start;
   }
 }
+
+
+309
