@@ -257,10 +257,7 @@ label[for="toggle-menu"] {
   display: none;
   list-style-type: none;
   margin-top: 25px;
-  padding: 0;
-}
-  
-  #contact-icons > a{
+  padding: 0;#contact-icons > a
   border-bottom-left-radius: 15px;
 }
 
