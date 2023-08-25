@@ -15,16 +15,7 @@ header {
   position: fixed;
 }
 
-/* bgcolor */
 
-#nav-menu,
-#burger-links, 
-footer {
-  background-color: rgba(65, 5, 5, 0.833);
-}
-
-
-/* --------------------------------------- */
 #logo-page {
   display: flex;
   align-items: center;
@@ -218,6 +209,7 @@ label[for="toggle-menu"] {
   padding: 0;
   border-bottom-left-radius: 15px;
   font-size: 30px;
+  background-color: rgba(65, 5, 5, 0.833);
 }
 
 #toggle-menu:checked ~ #burger-links {
@@ -264,6 +256,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: rgba(65, 5, 5, 0.833);
 }
 
 #contact-icons > a {
