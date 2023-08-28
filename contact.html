@@ -8,18 +8,19 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="./styles/contact-style.css">
+    <link rel="stylesheet" href="./styles/common-style.css">
     <title>Contact Page</title>
 </head>
 
 <body>
 
     <form>
-        <button id="go-back-btn">
-            <a href="./index.html">Go Back</a>
+        <button id="go-back-btn" class="bg-color">
+            <a href="./index.html" class="color-ltrs">Go Back</a>
         </button>
     </form>
 
-    <section id="form-section">
+    <section id="form-section" class="bg-section-main">
         <form>
             <div id="user-data">
                 <label for="name">Name:</label>
@@ -36,7 +37,7 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="email"><br><br>
 
-                <select id="country" name="country">
+                <select id="country" name="country" class="bg-color color-ltrs">
                     <optgroup label="Countries">
                         <option value="spain">Spain</option>
                         <option value="france">France</option>
@@ -71,11 +72,11 @@
                 <textarea id="message" name="message" placeholder="Tell us More!"></textarea><br><br>
             </div>
 
-            <input type="submit" value="Subscribe">
+            <input type="submit" value="Subscribe" class="bg-color color-ltrs">
         </form>
     </section>
 
-    <footer>
+    <footer class="bg-color color-ltrs">
         <div id="footer-container">
             <div>
                 <div>Made by Claudia DM!</div>
@@ -83,9 +84,9 @@
             </div>
 
             <div id="contact-icons">
-                <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook color-ltrs"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter color-ltrs"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram color-ltrs"></i></a>
 
             </div>
         </div>
