@@ -2,6 +2,7 @@ body {
   background-image: url(/images/library-background.jpeg);
   background-size: cover;
 }
+/* body */
 
 #go-back-btn {
   width: 150px;

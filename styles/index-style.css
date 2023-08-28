@@ -136,10 +136,7 @@ a:hover {
   font-style: italic;
   font-weight: bold;
 }
-#news-section div {
-  display: flex;
-  flex-direction: column;
-}
+
 #marbete-image {
   border-radius: 15px;
   width: 100%;
