@@ -19,7 +19,7 @@
 }
 
 body {
-  background-image: url(/images/library-background.jpeg);
+  background-image: url(../images/library-background.jpeg);
   background-size: cover;
   min-height: 100vh;
   display: flex;
