@@ -38,7 +38,7 @@
 
             <div id="book-print-data" class="book-form">
                 <label for="name">Publishing House:</label>
-                <input type="text" id="publ-data" name="publ-data" placeholder="Name of the Publishing House"><br>
+                <input type="text" name="publ-data" placeholder="Name of the Publishing House"><br>
                 <label for="year">Year:</label>
                 <input type="number" name="year" placeholder="Year of Publishing"><br>
             </div>
@@ -46,6 +46,7 @@
             <div id="book-format" class="book-form">
                 <div id="checkbox-format">
                     <div>Format:</div>
+
                     <input type="checkbox" name="hard cover" value="hard cover">
                     <label for="hard cover">Hard Cover</label>
 
@@ -54,28 +55,28 @@
 
                     <input type="checkbox" name="e-book" value="e-book">
                     <label for="e-book">E-Book</label>
+
+
                 </div>
                 <div>
-                    <div>
-                        <label for="name">Language:</label>
-                        <select id="leng-data" name="country" class="bg-color color-ltrs">
-                            <optgroup label="Languages">
-                                <option value="Spanish">ES</option>
-                                <option value="France">FR</option>
-                                <option value="German">GR</option>
-                                <option value="English">EN</option>
-                            </optgroup>
-                        </select>
-                    </div>
+                    <label for="name">Language:</label>
+                    <select id="leng-data" name="country" class="bg-color color-ltrs">
+                        <optgroup label="Languages">
+                            <option value="Spanish">ES</option>
+                            <option value="France">FR</option>
+                            <option value="German">DE</option>
+                            <option value="English">EN</option>
+                        </optgroup>
+                    </select>
                 </div>
             </div>
 
             <div id="message-section">
-                <label for="message">Aditional Data</label>
-                <textarea id="message" name="message" placeholder="Tell us More!"></textarea><br><br>
+                <label for="message">Additional Data:</label>
+                <textarea id="message-section" name="message" placeholder="Tell us More!"></textarea><br><br>
             </div>
 
-            <input type="submit" value="Order" class="bg-color color-ltrs">
+            <input type="submit" value="Request" class="bg-color color-ltrs">
         </form>
     </section>
 
