@@ -20,17 +20,22 @@
   flex-direction: row;
 }
 
+#book-format {
+  justify-content:space-between
+}
+
 #checkbox-format {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin: 10px;
-  font-size: 35px;
   font-size: 16px;
+
 }
 
 #checkbox-format > div {
-  margin: 15px;
+  font-weight: bold;
+  margin: 5px;
 }
 
 label {
@@ -41,19 +46,20 @@ label {
 
 #leng-data {
   height: 30px;
-  width: 90px;
+  width: 50%;
   border-radius: 10px;
 }
 
+#book-format div:nth-child(2) {
+  margin: 12px;
+}
+
 input[type="text"],
-input[type="number"],
-textarea {
-  width: 100%;
+input[type="number"]{
   padding: 12px;
   border-radius: 4px;
   border: none;
-  margin: 20px;
-  resize: vertical;
+  margin: 10px;
 }
 
 input[type="submit"] {
@@ -69,4 +75,21 @@ input[type="submit"]:hover {
 
 #main-title-contact {
   justify-content: center;
+}
+
+#message-section {
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+}
+
+#book-data > input,
+#book-print-data > input {
+  width: 40%;
+}
+
+#book-data > label,
+#book-print-data > label {
+  width: 10%;
+  font-weight: bold;
 }
