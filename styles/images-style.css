@@ -1,12 +1,4 @@
 #main-title-images {
-  font-size: 100px;
-  margin: 5% 10%;
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  border-radius: 15px;
-  padding: 20px;
-  align-items: center;
   justify-content: space-between;
 }
 

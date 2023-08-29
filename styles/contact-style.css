@@ -8,29 +8,28 @@
   flex-direction: column;
 }
 
-#user-data,
-#user-location,
-#data-user {
+.book-form {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
-#data-user > div {
+#book-format > div {
   display: flex;
   flex-direction: row;
 }
 
-#checkbox-social {
+#checkbox-format {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
   font-size: 35px;
+  font-size: 16px;
 }
-#checkbox-social > div {
-  font-size: 20px;
+
+#checkbox-format > div {
   margin: 15px;
 }
 
@@ -40,14 +39,14 @@ label {
   align-items: center;
 }
 
-#country {
+#leng-data {
   height: 30px;
   width: 90px;
   border-radius: 10px;
 }
 
 input[type="text"],
-input[type="email"],
+input[type="number"],
 textarea {
   width: 100%;
   padding: 12px;
@@ -58,7 +57,6 @@ textarea {
 }
 
 input[type="submit"] {
-
   padding: 12px 20px;
   border-radius: 10px;
   border: none;
@@ -67,4 +65,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+#main-title-contact {
+  justify-content: center;
 }

@@ -13,66 +13,69 @@
 </head>
 
 <body>
+    <main>
+        <form>
+            <button id="go-back-btn" class="bg-color">
+                <a href="./index.html" class="color-ltrs">Go Back</a>
+            </button>
+        </form>
+        <div id="main-title-contact" class="bg-section-main">
+            <h1>New Book Order Form</h1>
+        </div>
+    </main>
 
-    <form>
-        <button id="go-back-btn" class="bg-color">
-            <a href="./index.html" class="color-ltrs">Go Back</a>
-        </button>
-    </form>
 
     <section id="form-section" class="bg-section-main">
         <form>
-            <div id="user-data">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Name"><br><br>
+            <div id="book-data" class="book-form">
+                <label for="name">Author:</label>
+                <input type="text" name="author" placeholder="Name"><br>
 
-                <label for="name">Last Name:</label>
-                <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+                <label for="name">Titel:</label>
+                <input type="text" name="title" placeholder="Book Title"><br>
 
             </div>
 
-            <div id="user-location">
-                <label for="name">Adress:</label>
-                <input type="text" id="adress" name="adress" placeholder="Adress"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="email"><br><br>
-
-                <select id="country" name="country" class="bg-color color-ltrs">
-                    <optgroup label="Countries">
-                        <option value="spain">Spain</option>
-                        <option value="france">France</option>
-                        <option value="germany">Germany</option>
-                        <option value="other">other</option>
-                    </optgroup>
-                </select>
+            <div id="book-print-data" class="book-form">
+                <label for="name">Publishing House:</label>
+                <input type="text" id="publ-data" name="publ-data" placeholder="Name of the Publishing House"><br>
+                <label for="year">Year:</label>
+                <input type="number" name="year" placeholder="Year of Publishing"><br>
             </div>
-            <div id="data-user">
-                <div>
-                    <label for="fecha">Date:</label>
-                    <input type="date" id="fecha" name="fecha">
+
+            <div id="book-format" class="book-form">
+                <div id="checkbox-format">
+                    <div>Format:</div>
+                    <input type="checkbox" name="hard cover" value="hard cover">
+                    <label for="hard cover">Hard Cover</label>
+
+                    <input type="checkbox" name="soft cover" value="soft cover">
+                    <label for="soft cover">Soft Cover</label>
+
+                    <input type="checkbox" name="e-book" value="e-book">
+                    <label for="e-book">E-Book</label>
                 </div>
-
-                <div id="checkbox-social">
+                <div>
                     <div>
-                        Receive more news through:
+                        <label for="name">Language:</label>
+                        <select id="leng-data" name="country" class="bg-color color-ltrs">
+                            <optgroup label="Languages">
+                                <option value="Spanish">ES</option>
+                                <option value="France">FR</option>
+                                <option value="German">GR</option>
+                                <option value="English">EN</option>
+                            </optgroup>
+                        </select>
                     </div>
-                    <input type="checkbox" id="facebook" name="redes-sociales" value="facebook">
-                    <label for="facebook"><i class="fa-brands fa-facebook"></i></label>
-
-                    <input type="checkbox" id="twitter" name="redes-sociales" value="twitter">
-                    <label for="twitter"><i class="fa-brands fa-twitter"></i></label>
-
-                    <input type="checkbox" id="instagram" name="redes-sociales" value="instagram">
-                    <label for="instagram"><i class="fa-brands fa-instagram"></i></label>
                 </div>
             </div>
 
             <div id="message-section">
-                <label for="message">Message</label>
+                <label for="message">Aditional Data</label>
                 <textarea id="message" name="message" placeholder="Tell us More!"></textarea><br><br>
             </div>
 
-            <input type="submit" value="Subscribe" class="bg-color color-ltrs">
+            <input type="submit" value="Order" class="bg-color color-ltrs">
         </form>
     </section>
 
