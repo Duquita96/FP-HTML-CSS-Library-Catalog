@@ -60,3 +60,26 @@ a {
   padding: 20px;
   align-items: center;
 }
+
+#news-section {
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin: 80px 10%;
+  padding: 20px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.news-text {
+  font-size: 25px;
+  margin: 15px;
+}
+span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#marbete-image {
+  border-radius: 15px;
+  width: 100%;
+}

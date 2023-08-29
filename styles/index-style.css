@@ -143,7 +143,7 @@ q {
 }
 
 
-#news-section {
+/* #news-section {
   display: flex;
   width: 80%;
   height: auto;
@@ -155,16 +155,16 @@ q {
 .news-text {
   font-size: 25px;
   margin: 15px;
-}
-span {
+} */
+/* span {
   font-style: italic;
   font-weight: bold;
-}
-
+} */
+/* 
 #marbete-image {
   border-radius: 15px;
   width: 100%;
-}
+} */
 #resume-table {
   display: flex;
   width: 80%;
