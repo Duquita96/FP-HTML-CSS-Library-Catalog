@@ -15,7 +15,7 @@
   justify-content: center;
   grid-template-columns: repeat(4, 20%);
   grid-template-rows: repeat(4, 250px);
-  gap: 30px;
+  gap: 15px;
 }
 
 img {
@@ -27,43 +27,6 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-}
-
-#img-1 {
-  grid-area: 1 / 1;
-}
-#img-2 {
-  grid-area: 1 / 2;
-}
-#img-3 {
-  grid-area: 1 / 3;
-}
-#img-4 {
-  grid-area: 2 / 1;
-}
-#img-5 {
-  grid-area: 2 / 2;
-}
-#img-6 {
-  grid-area: 2 / 3;
-}
-#img-7 {
-  grid-area: 3 / 1;
-}
-#img-8 {
-  grid-area: 3 / 2;
-}
-#img-9 {
-  grid-area: 3 / 3;
-}
-#img-10 {
-  grid-area: 4 / 1;
-}
-#img-11 {
-  grid-area: 4 / 2;
-}
-#img-12 {
-  grid-area: 4 / 3;
 }
 
 #star2,
@@ -82,4 +45,23 @@ img {
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 1065px) {
+  img {
+    width: 100%;
+  }
+
+  #resume-table-images {
+    grid-template-columns: repeat(1, 80%);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  h1,
+  #star2,
+  #star1 {
+    font-size: 35px;
+  }
+
 }

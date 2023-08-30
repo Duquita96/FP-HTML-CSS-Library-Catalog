@@ -1,0 +1,35 @@
+#cards-section {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-top {
+  height: 50%;
+  width: auto;
+
+}
+
+.card {
+  width: 35%;
+  height: 500px;
+  margin: 15px;
+  border: 0;
+  border: 3px solid rgba(65, 5, 5);
+  background-color:  antiquewhite;
+}
+
+.card-body {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#main-title-news {
+    justify-content: center;
+}
+
+.card-text {
+    overflow: auto;
+}

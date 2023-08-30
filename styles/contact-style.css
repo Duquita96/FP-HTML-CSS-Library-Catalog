@@ -21,7 +21,7 @@
 }
 
 #book-format {
-  justify-content:space-between
+  justify-content: space-between;
 }
 
 #checkbox-format {
@@ -30,7 +30,6 @@
   align-items: center;
   margin: 10px;
   font-size: 16px;
-
 }
 
 #checkbox-format > div {
@@ -55,7 +54,7 @@ label {
 }
 
 input[type="text"],
-input[type="number"]{
+input[type="number"] {
   padding: 12px;
   border-radius: 4px;
   border: none;
@@ -92,4 +91,10 @@ input[type="submit"]:hover {
 #book-print-data > label {
   width: 10%;
   font-weight: bold;
+}
+
+@media (max-width: 1065px) {
+  #book-format {
+    flex-direction: column;
+  }
 }
