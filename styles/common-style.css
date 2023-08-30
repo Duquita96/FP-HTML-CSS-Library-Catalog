@@ -4,7 +4,7 @@ header {
 body {
   background-image: url(../images/library-background.jpeg);
   background-size: cover;
-} 
+}
 
 footer {
   width: 100%;
@@ -34,21 +34,21 @@ a {
 
 /* colors */
 .bg-color {
-    background-color: rgba(65, 5, 5);
+  background-color: rgba(65, 5, 5);
 }
 
 .logos-menu-color {
-    color: rgb(144, 136, 125);
+  color: rgb(144, 136, 125);
 }
 
 .color-ltrs {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
 .bg-section-main {
-    background-color: rgba(250, 235, 215, 0.5);
+  background-color: rgba(250, 235, 215, 0.5);
 }
-
+#main-title-news,
 #main-title-contact,
 #main-title-images {
   font-size: 100px;
@@ -82,4 +82,12 @@ span {
 #marbete-image {
   border-radius: 15px;
   width: 100%;
+}
+
+@media (max-width: 1065px) {
+  #go-back-btn {
+    width: 80px;
+    height: 60px;
+    font-size: 15px;
+  }
 }
