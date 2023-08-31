@@ -167,6 +167,7 @@ q {
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-items: center;
+  gap: 15px;
 }
 
 #card-1 {
@@ -187,7 +188,6 @@ q {
 #card-6 {
   grid-template-columns: 2/3;
 }
-
 .card {
   width: 90%;
   display: flex;
@@ -216,7 +216,6 @@ q {
     font-size: 35px;
   }
   h2 {
-    font-size: 25px;
     margin-top: 10%;
   }
   #quotation-block {
@@ -229,7 +228,6 @@ q {
 
 @media  (max-width: 1065px) {
   #nav-links {
-    display: grid;
     grid-template-columns: repeat(2, 120px);
     grid-template-rows: repeat(2, 40px);
     font-size: 20px;
@@ -238,6 +236,7 @@ q {
     justify-content: end;
     align-items: center;
   }
+
   #nav-links > a:nth-of-type(1) {
     grid-area: 1 / 1;
   }
@@ -255,20 +254,20 @@ q {
   }
   h2 {
     font-size: 20px;
-    margin-top: 10%;
   }
   #quotation-block {
     font-size: 18px;
   }
-
 }
 
 @media (max-width: 740px) {
   #logo-page {
-    font-size: 60px;
+    font-size: 50px;
   }
   #page-name {
-    font-size: 40px;
+    font-size: 35px;
+    margin-right: 0;
+    margin-left: 12px;
   }
   #nav-links {
     display: none;
@@ -278,18 +277,14 @@ q {
     flex-direction: column;
     width: 20%;
   }
-#burger-links {
-  color: red;
-}
+  
   .burger-links-list {
     font-size: 18px;
   }
   #main-title {
-    width: 80%;
     height: 120px;
     padding: 0;
     text-align: center;
-    display: flex;
     justify-content: center;
   }
   #main-title > img {
@@ -308,28 +303,9 @@ q {
   #inside-table {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    gap: 15px;
   }
   #web-presentation {
     height: fit-content;
   }
 }
-
-
-@media (max-width: 300px) {
-  #logo-page {
-    font-size: 30px;
-  }
-  #page-name {
-    font-size: 25px;
-  }
-  .fa-bars {
-    font-size: 30px;
-  }
-  #button-menu {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-}
-261
+321
