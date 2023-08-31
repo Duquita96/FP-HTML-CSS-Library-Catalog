@@ -4,6 +4,8 @@ header {
 body {
   background-image: url(../images/library-background.jpeg);
   background-size: cover;
+  font-family:'Times New Roman', Times, serif;
+
 }
 
 footer {
