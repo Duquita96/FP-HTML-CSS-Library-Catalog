@@ -280,8 +280,7 @@ q {
     flex-direction: column;
     width: 20%;
   }
-  
-  .burger-links-list {
+    .burger-links-list {
     font-size: 18px;
   }
   #main-title {
@@ -311,4 +310,32 @@ q {
     height: fit-content;
   }
 }
+
+@media (max-width: 312px) {
+#resume-table-title {
+  font-size: 20px;
+}
+#logo-page {
+  font-size: 35px;
+}
+#page-name {
+  font-size: 25px;
+  margin-right: 0;
+  margin-left: 12px;
+}
+.fa-bars {
+  font-size: 35px;
+  padding-top: 10px;
+}
+h1 {
+  font-size: 15px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  #web-presentation {
+    margin: 5px;
+  }
+}
+
 321
