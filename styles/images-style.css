@@ -37,6 +37,9 @@ img {
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
+h1 {
+  text-align: center;
+}
 
 @keyframes star1 {
   from {
