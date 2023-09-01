@@ -43,6 +43,9 @@ img.thumb-image:hover {
 a {
   color: brown;
 }
+.cell {
+  overflow: scroll;
+}
 
 @media (max-width: 1065px) {
   .table {
