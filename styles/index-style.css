@@ -158,6 +158,9 @@ q {
   flex-direction: column;
   align-items: center;
 }
+#resume-table-title {
+  text-align: center;
+}
 
 #inside-table {
   display: grid;
