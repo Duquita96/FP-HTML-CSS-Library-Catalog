@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/book-form-style.css">
+    <link rel="stylesheet" href="./styles/common-style.css">
+    <title>Book Form Page</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <button id="go-back-btn" class="bg-color">
+                <a href="./index.html" class="color-ltrs">Go Back</a>
+            </button>
+        </form>
+        <div id="main-title-contact" class="bg-section-main">
+            <h1>New Book Order Form</h1>
+        </div>
+    </main>
+
+
+    <section id="form-section" class="bg-section-main">
+        <form>
+            <div id="book-data" class="book-form">
+                <label for="name">Author:</label>
+                <input type="text" name="author" placeholder="Name"><br>
+
+                <label for="name">Titel:</label>
+                <input type="text" name="title" placeholder="Book Title"><br>
+
+            </div>
+
+            <div id="book-print-data" class="book-form">
+                <label for="name">Publishing House:</label>
+                <input type="text" name="publ-data" placeholder="Name of the Publishing House"><br>
+                <label for="year">Year:</label>
+                <input type="number" name="year" placeholder="Year of Publishing"><br>
+            </div>
+
+            <div id="book-format" class="book-form">
+                <div id="checkbox-format">
+                    <div id="checkbox-title">Format:</div>
+                    <div id="checkboxes">
+                        <div class="format-chk">
+                            <input type="checkbox"  name="hard cover" value="hard cover">
+                            <label for="hard cover">Hard Cover</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="soft cover" value="soft cover">
+                            <label for="soft cover">Soft Cover</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="e-book" value="e-book">
+                            <label for="e-book" >E-Book</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <label for="name">Language:</label>
+                    <select id="leng-data" name="country" class="bg-color color-ltrs">
+                        <optgroup label="Options">
+                            <option value="Spanish">ES</option>
+                            <option value="France">FR</option>
+                            <option value="German">DE</option>
+                            <option value="English">EN</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+
+            <div id="message-section">
+                <label for="message">Additional Data:</label>
+                <textarea id="message-section" name="message" placeholder="Tell us More!"></textarea><br><br>
+            </div>
+
+            <input type="submit" value="Request" class="bg-color color-ltrs">
+        </form>
+    </section>
+
+    <footer class="bg-color color-ltrs">
+        <div id="footer-container">
+            <div>
+                <div>Made by Claudia DM!</div>
+                <div>Follow me!!</div>
+            </div>
+
+            <div id="contact-icons">
+                <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook color-ltrs"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter color-ltrs"></i></a>
+                <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram color-ltrs"></i></a>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
